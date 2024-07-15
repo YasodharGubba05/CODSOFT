@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstheader, .secondheader {
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    display: flex;
+}
+
+.firstheader{
+    height: 50px;
+    background-color: lightcyan;
+}
+
+.secondheader{
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+}
