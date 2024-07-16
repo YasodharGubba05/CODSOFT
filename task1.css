@@ -77,3 +77,35 @@ header{
    background-color:#80669d;
    border-radius: 10px;
 }
+.features{
+    height: 100px;
+    background-color: #B370B0;
+    display:flex;
+    flex-direction: row;
+}
+.features {
+    display: flex;
+    justify-content: space-around; 
+    text-align: center; 
+  }
+  
+  .feature-item {
+    flex: 1; 
+    margin: 0 10px; 
+  }
+  
+  .feature-item h3 {
+    margin-bottom: 10px; 
+  }
+  
+  .feature-item p {
+    margin: 0; 
+  }
+  .aboutus{
+    height: 200px;
+    background-color: #87255B;
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
