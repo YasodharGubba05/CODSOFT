@@ -4,6 +4,12 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
 header{
     height: 100px;
     margin: 0;
@@ -27,21 +33,47 @@ header{
    text-align: center;
 }
 
-button{
+.Booking{
     background-color:#C3C3E6;
     border: #C3C3E6;
     font-size: larger;
 }
-button:hover{
+.buynow{
     background-color:#D1C8E1;
+    border: #D1C8E1;
+    font-size: larger;
 }
-.secondheader{
+
+.secondheader {
     height: 50px;
     background-color: #D1C8E1;
     display: flex;
     justify-content: space-evenly;
     align-content: space-between;
 }
-.buynow{
-    background-color:#BBA0CA;
+
+.banner {
+    position: relative;
+    height: 200px;
+    width: 100%;
+   background-color: #BBA0CA;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    
+}
+.readmore{
+    display: inline-block;
+    width: 80px;
+   border-radius: 5px;
+   background-color:#80669d;
+}
+.Request{
+   display: inline-block;
+   width: 130px;
+   background-color:#80669d;
+   border-radius: 10px;
 }
