@@ -7,7 +7,6 @@ body{
 .header{
     display: flex;
     justify-content: space-evenly;
-    background-color: #bee9e8;
     height: 100px;
     align-items: center;
     font-size: larger;
@@ -75,5 +74,19 @@ body{
 
 .social-button:focus {
     outline: none; 
+}
+.buttons button {
+    background-color: purple;
+    color: white;
+    font-size: 18px; /* Increase the font size */
+    padding: 15px 30px; /* Increase the padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.buttons button:hover {
+    background-color: darkviolet; /* Slightly darker purple on hover */
 }
 
