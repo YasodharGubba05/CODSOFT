@@ -43,4 +43,37 @@ body{
   .introduction{
     height: 420px;
   }
-  
+  .social-button {
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+    padding: 10px; 
+    transition: transform 0.2s ease-in-out; 
+    margin-left: 40px;
+   
+}
+
+
+.social-button .fa {
+    color: #0077B5; 
+}
+
+.github .fa {
+    color: #333; 
+}
+
+.social-button:hover {
+    transform: scale(1.2); 
+}
+
+.social-button.linkedin:hover .fa {
+    color: #005582; }
+
+.social-button.github:hover .fa {
+    color: #000; 
+}
+
+.social-button:focus {
+    outline: none; 
+}
+
