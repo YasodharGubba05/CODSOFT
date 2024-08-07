@@ -1,6 +1,11 @@
 html{
     margin: 0;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
     margin: 0;
 }
@@ -78,8 +83,8 @@ body{
 .buttons button {
     background-color: purple;
     color: white;
-    font-size: 18px; /* Increase the font size */
-    padding: 15px 30px; /* Increase the padding */
+    font-size: 18px; 
+    padding: 15px 30px; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -87,6 +92,42 @@ body{
 }
 
 .buttons button:hover {
-    background-color: darkviolet; /* Slightly darker purple on hover */
+    background-color: darkviolet;
+}
+.headingprof{
+    margin-left: 40px;
+}
+
+.htmlprof{
+   margin-left: 40px;
+}
+
+.htmlprof {
+    display: block; 
+    font-size: 18px;
+    margin-bottom: 5px; 
+    color: #333; }
+
+
+progress {
+    width: 30%; 
+    height: 20px; 
+    -webkit-appearance: none; 
+    appearance: none;
+    margin-left: 40px;
+}
+
+
+progress::-webkit-progress-bar {
+    background-color: #eee; 
+    border-radius: 5px; }
+
+progress::-webkit-progress-value {
+    background-color:#023e8a; 
+    border-radius: 5px; 
+}
+
+.cssprof{
+    display: block;
 }
 
