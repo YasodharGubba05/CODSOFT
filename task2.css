@@ -93,7 +93,8 @@ body{
 }
 
 .buttons button:hover {
-    background-color: darkviolet;
+    background-color:#005582;
+    transform: scale(1.1);
 }
 .headingprof{
     margin-left: 40px;
@@ -151,4 +152,26 @@ progress::-webkit-progress-value {
      position: relative;
     top: -200px;
     margin-right: 30px;
+}
+.skills:hover{
+    transform: scale(1.2);
+}
+.projects:hover{
+    transform: scale(1.2);
+}
+.blogs:hover{
+    transform: scale(1.2);
+}
+.contactme:hover{
+    transform: scale(1.2);
+}
+.name:hover{
+    transform: scale(1.2);
+}
+.reactprof{
+    margin-left: 40px;
+    display: block; 
+    font-size: 18px;
+    margin-bottom: 5px; 
+    color: #333;
 }
