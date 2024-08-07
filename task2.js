@@ -7,3 +7,8 @@ const github = document.querySelector('#github');
 github.addEventListener("click", function() {
     window.open("https://github.com/YasodharGubba05", "_blank");
 });
+
+const skills=document.querySelector('#skills');
+skills.addEventListener('click', function() {
+    document.getElementById('section1').scrollIntoView({ behavior: 'smooth' });
+  });
