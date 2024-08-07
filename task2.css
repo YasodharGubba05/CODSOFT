@@ -20,6 +20,7 @@ body{
 .name{
     margin-right: 690px;
     font-family: cedarville cursive;
+    font-size: larger;
 }
 .intro{
     margin-top: 80px;
@@ -129,5 +130,25 @@ progress::-webkit-progress-value {
 
 .cssprof{
     display: block;
+    margin-left: 40px;
+    font-size: 18px;
+    margin-bottom: 5px; 
+    color: #333;
 }
-
+.jsprof{
+    display: block;
+    margin-left: 40px;
+    font-size: 18px;
+    margin-bottom: 5px; 
+    color: #333;
+}
+.code{
+    float: right;
+    max-width: 40%; 
+    margin-left: 20px; 
+    height: auto;
+    object-fit: cover; 
+     position: relative;
+    top: -200px;
+    margin-right: 30px;
+}
