@@ -17,4 +17,10 @@ skills.addEventListener('click', function() {
   projects.addEventListener('click', function() {
       document.getElementById('section2').scrollIntoView({ behavior: 'smooth' });
     });
+
+   const about=document.querySelector('#blogs');
+    about.addEventListener('click', function() {
+        document.getElementById('section3').scrollIntoView({ behavior: 'smooth' });
+      });
+
   
