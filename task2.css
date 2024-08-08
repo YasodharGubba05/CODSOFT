@@ -200,4 +200,21 @@ progress::-webkit-progress-value {
 .project2{
     font-size: larger;
 }
-
+#section2{
+    height: 1150px;
+}
+.contactheading{
+   font-size: 25px;
+    margin-left: 40px;
+  
+}
+.abit{
+    margin-left: 40px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+.finalname{
+    margin-left: 40px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
