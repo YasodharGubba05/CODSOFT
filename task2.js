@@ -12,3 +12,9 @@ const skills=document.querySelector('#skills');
 skills.addEventListener('click', function() {
     document.getElementById('section1').scrollIntoView({ behavior: 'smooth' });
   });
+
+  const projects=document.querySelector('#projects');
+  projects.addEventListener('click', function() {
+      document.getElementById('section2').scrollIntoView({ behavior: 'smooth' });
+    });
+  
