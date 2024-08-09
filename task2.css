@@ -184,6 +184,7 @@ progress::-webkit-progress-value {
 .host1{
     float: right;
     margin-top: 50px;
+    margin-right: 650px;
 }
 .project2{
     font-size: larger;
@@ -208,6 +209,8 @@ progress::-webkit-progress-value {
     margin-left: 40px;
   
 }
+
+
 .abit{
     margin-left: 40px;
     font-size: larger;
@@ -222,16 +225,32 @@ progress::-webkit-progress-value {
     height: 130px;
 }
 .profile{
-    float: right;
-    max-width: 30%; 
-    margin-left: 20px; 
+    float: left;
+    max-width: 25%; 
+    margin-left: 40px; 
     height: auto;
     object-fit: cover; 
      position: relative;
-   
     margin-right: 30px;
 }
 .profilepic{
     height: 500px;
-    background-color: black;
+}
+main{
+    font-size: 18px;
+}
+
+
+.mylocation i {
+    margin-right: 20px; 
+    color: black; 
+    font-size: 18px;
+}
+.mylinkedin{
+    color: #005582;
+    background-color: white;
+    border: 0;
+}
+.mylinkedin:hover{
+    transform: scale(1.2);
 }
