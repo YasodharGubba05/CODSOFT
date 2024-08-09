@@ -218,3 +218,20 @@ progress::-webkit-progress-value {
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
 }
+#section4{
+    height: 130px;
+}
+.profile{
+    float: right;
+    max-width: 30%; 
+    margin-left: 20px; 
+    height: auto;
+    object-fit: cover; 
+     position: relative;
+   
+    margin-right: 30px;
+}
+.profilepic{
+    height: 500px;
+    background-color: black;
+}
