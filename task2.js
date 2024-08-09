@@ -10,7 +10,7 @@ github.addEventListener("click", function() {
 
 const skills=document.querySelector('#skills');
 skills.addEventListener('click', function() {
-    document.getElementById('section1').scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('section3').scrollIntoView({ behavior: 'smooth' });
   });
 
   const projects=document.querySelector('#projects');
@@ -20,7 +20,11 @@ skills.addEventListener('click', function() {
 
    const about=document.querySelector('#blogs');
     about.addEventListener('click', function() {
-        document.getElementById('section3').scrollIntoView({ behavior: 'smooth' });
+        document.getElementById('section1').scrollIntoView({ behavior: 'smooth' });
       });
 
-  
+      const details=document.querySelector('#contactme');
+      details.addEventListener('click', function() {
+          document.getElementById('section4').scrollIntoView({ behavior: 'smooth' });
+        });
+
