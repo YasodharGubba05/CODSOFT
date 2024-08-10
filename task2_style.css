@@ -226,7 +226,7 @@ progress::-webkit-progress-value {
 }
 .profile{
     float: left;
-    max-width: 25%; 
+    max-width: 23%; 
     margin-left: 40px; 
     height: auto;
     object-fit: cover; 
