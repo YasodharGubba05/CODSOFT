@@ -33,8 +33,9 @@ const about=document.querySelector('#blogs');
             window.open("https://www.linkedin.com/in/yasodhar-gubba-18aa84209", "_blank");
         });
 
-        const reachout=document.querySelector('#reachout');
+  const reachout=document.querySelector('#reachout');
         reachout.addEventListener('click', function() {
             document.getElementById('section4').scrollIntoView({ behavior: 'smooth' });
           });       
+       
 
