@@ -12,8 +12,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 try {
                     inputField.value = eval(inputField.value);
                 } catch (error) {
-                    inputField.value = 'Error';
+                     inputField.value = 'Error';
                 }
+             
             } else {
                 inputField.value += buttonValue;
             }
